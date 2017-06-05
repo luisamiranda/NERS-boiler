@@ -1,0 +1,44 @@
+{
+  "name": "nerd-boiler",
+  "version": "1.0.0",
+  "description": "NERD stack boilerplate",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w & nodemon start.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "react",
+    "redux",
+    "webpack",
+    "scss",
+    "postgreSQL",
+    "boilerplate"
+  ],
+  "author": "Luisa de Miranda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^3.0.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  }
+}
