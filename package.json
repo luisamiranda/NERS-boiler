@@ -1,7 +1,7 @@
 {
-  "name": "nerd-boiler",
+  "name": "nerf-boiler",
   "version": "1.0.0",
-  "description": "NERD stack boilerplate",
+  "description": "NERF stack boilerplate",
   "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,6 @@
     "redux",
     "webpack",
     "scss",
-    "postgreSQL",
     "boilerplate"
   ],
   "author": "Luisa de Miranda",
@@ -25,8 +24,6 @@
     "morgan": "^1.8.2",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
-    "pg": "^6.2.3",
-    "pg-hstore": "^2.3.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
