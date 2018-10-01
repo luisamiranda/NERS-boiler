@@ -1,5 +1,5 @@
 # NERS-boiler
-Node, Express, React, and Redux boilerplate for use with serveless, backend-as-a-service, or when you only need a front end. Also an easy way to test a single component without building a whole project.
+Node, Express, React, and Redux boilerplate for use with serverless, backend-as-a-service, or when you only need a front end. Also an easy way to test a single component without building a whole project.
 
 # How to use
 Clone or download the repo. Run commands in your terminal: `npm install` and then `npm start`.
