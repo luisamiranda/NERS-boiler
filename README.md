@@ -5,7 +5,7 @@ Node, Express, React, and Redux boilerplate for use with serverless, backend-as-
 Clone or download the repo. Run commands in your terminal: `npm install` and then `npm start`.
 
 If you are on a Unix system, this should be all you need to do. If you are on Windows, and the site quits with an error, you may need to edit the "scripts" section in the `package.json` to read:  
-  ` "scrips: {
+  ` "scripts: {
       "client": "webpack -w",
       "server": "nodemon server.js",
       "start": "npm-run-all --parallel server client"
@@ -13,6 +13,6 @@ If you are on a Unix system, this should be all you need to do. If you are on Wi
      
 Then run the `npm start` command again.
 
-Navigate to `http://localhost:1337/` or if you want to access from a computer other than the one running the program, `http://That.Computers.IP.Address:1337/`.
+Navigate to `http://localhost:1337/` or -- if you want to access from a computer other than the one running the program -- `http://That.Computers.IP.Address:1337/`.
 
-You're ready to start subbing in your own React components for mine!
+You're ready to start subbing your own React components for mine!
